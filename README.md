@@ -6,6 +6,12 @@ The dashboard also includes **interactive drill-through pages** for deeper analy
 
 ---
 
+## 📊 Dashboard Preview
+
+![Insight360 Sales Dashboard](./Insight360%20Sales%20Dashboard.png)
+
+---
+
 ## 📌 Project Overview
 
 **Insight360 Sales Dashboard** is a Business Intelligence project built using **Microsoft Power BI** to analyze sales performance across multiple business dimensions.
@@ -24,7 +30,7 @@ The main dashboard combines KPIs, trends, category analysis, product analysis, r
 
 ---
 
-## 🎯 Project Objective
+# 🎯 Project Objective
 
 The primary objective of this project is to build an interactive sales reporting solution that:
 
@@ -38,7 +44,7 @@ The primary objective of this project is to build an interactive sales reporting
 
 ---
 
-## 💼 Business Requirement
+# 💼 Business Requirement
 
 A sales business needs a centralized dashboard to monitor performance instead of depending on separate spreadsheets or static reports.
 
@@ -208,7 +214,7 @@ The monthly trend can be used to identify:
 
 The Sales Performance section ranks salespersons according to their sales contribution.
 
-This allows the business to compare individual performance and investigate salesperson-level results using the drill-through functionality.
+This allows users to compare individual performance and investigate salesperson-level results using the drill-through functionality.
 
 ---
 
@@ -240,17 +246,3 @@ Interactive Slicers
 Drill-Through Pages
       ↓
 Business Insights
-
-# 👨‍💻 Author
-
-**Bapurao Siddharam Patil**
-
-**Data Analyst Fresher | Power BI | SQL | Python | Excel**
-
-GitHub: [Add your GitHub profile link]
-
-LinkedIn: [Add your LinkedIn profile link]
-
-## 📊 Dashboard Preview
-
-<img src="./Insight360%20Sales%20Dashboard.png" alt="Insight360 Sales Dashboard" width="100%">
