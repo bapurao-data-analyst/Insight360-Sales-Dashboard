@@ -1,33 +1,256 @@
-# confectionery-product-salesperson-performance
+# Insight360 Sales Dashboard
 
-## Project Title
- Global Confectionery Sales & Shipment Performance Dashboard
+An interactive **Power BI Sales Analytics Dashboard** designed to transform transactional sales data into actionable business insights. The dashboard provides a consolidated view of sales, profit, growth, order value, quantity, product performance, salesperson performance, and regional performance.
 
-## Project Overview
-This project presents an interactive Power BI dashboard that analyzes global confectionery sales performance, shipment trends, and product demand across different regions.
+The dashboard also includes **interactive drill-through pages** for deeper analysis by region, month, salesperson, and product.
 
-## Project Objective
-The objective of this dashboard is to monitor sales performance, shipment efficiency, and profitability to support data-driven business decisions.
+---
 
-## Tech Stack
-- Power BI Desktop
-- Power Query
-- DAX
-- Data Modeling
-- File Format: .pbix
+## 📌 Project Overview
 
-## Data Source
-Sample Global Confectionery Sales dataset containing information about sales revenue, profit margin, product categories, shipments, and regional performance.
+**Insight360 Sales Dashboard** is a Business Intelligence project built using **Microsoft Power BI** to analyze sales performance across multiple business dimensions.
 
-## Key Features
-- Sales performance analysis
-- Shipment trend analysis
-- Product category comparison
-- Regional sales insights
-- Interactive filters for dynamic analysis
+The dashboard helps users answer important business questions such as:
 
-## Dashboard Preview
-![Dashboard](dashboard_preview.png)
+- How are total sales and profit performing?
+- Which product categories contribute most to sales?
+- Which products generate the highest sales?
+- Which salespersons are performing strongly?
+- Which regions contribute to overall sales?
+- How does sales performance change month by month?
+- How can users move from a high-level KPI to detailed performance analysis?
 
-## 👨‍💻 Author
-Bapurao Patil
+The main dashboard combines KPIs, trends, category analysis, product analysis, regional visualization, and salesperson performance into a single interactive reporting experience.
+
+---
+
+## 🎯 Project Objective
+
+The primary objective of this project is to build an interactive sales reporting solution that:
+
+1. Converts raw sales data into meaningful business insights.
+2. Tracks important sales and profitability KPIs.
+3. Identifies high-performing products, categories, regions, and salespersons.
+4. Analyzes monthly sales trends and growth.
+5. Provides interactive filtering using year, month, and region.
+6. Enables detailed investigation through Power BI drill-through pages.
+7. Presents complex sales information in a simple and business-friendly format.
+
+---
+
+## 💼 Business Requirement
+
+A sales business needs a centralized dashboard to monitor performance instead of depending on separate spreadsheets or static reports.
+
+The reporting solution should allow management and sales teams to:
+
+- Monitor total sales and total profit.
+- Understand profit margin.
+- Track sales growth.
+- Monitor total orders, quantity, and average order value.
+- Compare sales across product categories.
+- Identify top-selling products.
+- Compare regional sales performance.
+- Analyze salesperson performance.
+- Identify monthly sales patterns.
+- Filter the analysis by year, month, and region.
+- Navigate from summary-level information to detailed analysis.
+
+---
+
+# 📊 Dashboard KPIs
+
+The dashboard contains the following major KPIs:
+
+| KPI | Purpose |
+|---|---|
+| **Total Sales** | Measures overall revenue generated |
+| **Total Profit** | Measures overall profit generated |
+| **Profit Margin** | Shows profitability relative to sales |
+| **Sales Growth %** | Tracks sales growth over the selected period |
+| **Average Order Value (AOV)** | Measures average sales value per order |
+| **Total Quantity** | Shows total quantity sold |
+| **Total Orders** | Shows the number of orders |
+
+The KPI cards provide an immediate executive-level view before users explore detailed charts.
+
+---
+
+# 🧩 Dashboard Components
+
+## 1. Year & Region Filters
+
+Users can filter the report by:
+
+- Year
+- Region
+- Month
+
+This allows users to analyze performance for a specific time period or geographical region.
+
+---
+
+## 2. Sales Trend
+
+A monthly line chart shows the movement of sales across the year.
+
+This helps identify:
+
+- High-sales months
+- Low-sales months
+- Monthly fluctuations
+- Seasonal patterns
+- Changes in sales performance
+
+---
+
+## 3. Sales by Category
+
+A donut chart displays the contribution of different product categories to total sales.
+
+From the dashboard snapshot:
+
+- **Bars** contribute approximately **49%** of total sales.
+- **Bites** contribute approximately **27%**.
+- **Other** products contribute approximately **23%**.
+
+> These values are filter-dependent and may change when different slicers are applied.
+
+---
+
+## 4. Product-Wise Sales
+
+A horizontal bar chart compares sales across products.
+
+This view helps identify:
+
+- Top-selling products
+- Lower-performing products
+- Product-level sales contribution
+- Opportunities for further product analysis
+
+---
+
+## 5. Region-Wise Sales
+
+The dashboard uses a map visualization to show sales performance across geographical regions.
+
+The report supports regional comparison across:
+
+- Americas
+- APAC
+- Europe
+
+This allows users to understand how different regions contribute to overall sales.
+
+---
+
+## 6. Sales Performance Section
+
+A salesperson ranking chart compares sales generated by individual salespersons.
+
+This helps users:
+
+- Identify high-performing salespersons.
+- Compare individual sales performance.
+- Understand salesperson contribution to total sales.
+- Investigate individual performance through drill-through analysis.
+
+---
+
+# 🔎 Key Findings
+
+Based on the dashboard snapshot:
+
+## Sales & Profit
+
+The displayed dashboard view shows:
+
+- **Total Sales:** 44.69M
+- **Total Profit:** 20.24M
+- **Profit Margin:** 45.29%
+- **Sales Growth:** 127.60%
+- **Average Order Value:** 5.65K
+- **Total Quantity:** 4M
+- **Total Orders:** 7,905
+
+> KPI values are dependent on the selected filters and may change when Year, Month, or Region slicers are modified.
+
+---
+
+## Category Performance
+
+The displayed dashboard indicates:
+
+- **Bars** are the largest contributor to sales at approximately **49%**.
+- **Bites** contribute approximately **27%**.
+- **Other** products contribute approximately **23%**.
+
+This category-level analysis helps identify where the majority of sales revenue is being generated.
+
+---
+
+## Monthly Performance
+
+The sales trend shows noticeable month-to-month variation.
+
+The monthly trend can be used to identify:
+
+- Strong sales periods
+- Lower sales periods
+- Sales fluctuations
+- Seasonal patterns
+- Areas requiring further investigation
+
+---
+
+## Salesperson Performance
+
+The Sales Performance section ranks salespersons according to their sales contribution.
+
+This allows the business to compare individual performance and investigate salesperson-level results using the drill-through functionality.
+
+---
+
+# 🔄 Power BI Workflow
+
+The overall project workflow is:
+
+```text
+Raw Sales Data
+      ↓
+Data Understanding
+      ↓
+Data Cleaning & Transformation
+      ↓
+Power Query
+      ↓
+Data Modeling
+      ↓
+Relationships
+      ↓
+Calendar / Date Analysis
+      ↓
+DAX Measures
+      ↓
+Visualizations
+      ↓
+Interactive Slicers
+      ↓
+Drill-Through Pages
+      ↓
+Business Insights
+
+## 📊 Dashboard Preview
+
+![Insight360 Sales Dashboard](Insight360%20Sales%20Dashboard.png)
+
+# 👨‍💻 Author
+
+**Bapurao Siddharam Patil**
+
+**Data Analyst Fresher | Power BI | SQL | Python | Excel**
+
+GitHub: [Add your GitHub profile link]
+
+LinkedIn: [Add your LinkedIn profile link]
