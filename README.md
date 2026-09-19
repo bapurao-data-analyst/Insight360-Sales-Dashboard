@@ -241,10 +241,6 @@ Drill-Through Pages
       ↓
 Business Insights
 
-## 📊 Dashboard Preview
-
-![Insight360 Sales Dashboard](Insight360%20Sales%20Dashboard.png)
-
 # 👨‍💻 Author
 
 **Bapurao Siddharam Patil**
@@ -254,3 +250,7 @@ Business Insights
 GitHub: [Add your GitHub profile link]
 
 LinkedIn: [Add your LinkedIn profile link]
+
+## 📊 Dashboard Preview
+
+<img src="./Insight360%20Sales%20Dashboard.png" alt="Insight360 Sales Dashboard" width="100%">
